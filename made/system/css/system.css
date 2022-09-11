@@ -1,0 +1,95 @@
+.infoimg { 
+  background: url('../../handicraft/img/sub_visual_02.jpg') ;
+  width: 100%; height: 100%;
+  }
+  .infotext {
+    width: 100%; height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .systembox {
+    width: 100%; 
+    border-top:1px solid #d7d7d7;
+    border-bottom:1px solid #d7d7d7;
+  }
+  .systembox ul {
+    width: 1000px; height: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .system > li {
+    width: 500px; height: 60px;
+    line-height: 45px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+  }
+  .system > li > a {
+    width: 100%; height: 100%;
+    color: #333;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+  }
+  .system > li:hover {background-color:#d4d0ca;}
+  .on {background-color:#d4d0ca;}
+
+  .text01 {
+    margin: 0 auto;
+    padding: 50px;
+    width: 100%; height: 530px;
+    border-bottom:1px solid #d7d7d7;
+  }
+  .textimg1 { 
+    width: 387px; height: 31px;
+    display: block;
+    margin: auto;
+  }
+  .text01 > p {
+    width: 100%; 
+    padding: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+  }
+
+  .personalized { 
+    width: 100%; height: 900px;
+    padding: 50px;
+    background: #f4f0ea;
+  }
+  .personalizedbox {
+    padding-top: 20px;
+    padding-bottom:40px;
+    margin-bottom:50px;
+    border-bottom:1px dashed #736461;
+  }
+  .personalizedbox > p { 
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  .footerwrap {
+    width: 100%; height: 130px;
+    background: url('/img/bg_footer.jpg');
+  }
+  .footerlogo { 
+    width: 100%; height: 56px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .add { 
+    text-align: center;
+  }
+  .add span { 
+    font-size: 12px;
+    color: #fff; 
+  }

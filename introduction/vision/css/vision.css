@@ -1,0 +1,94 @@
+.infoimg { 
+  background: url('../img/visual_01.jpg') ;
+  width: 100%; height: 100%;
+  }
+  .infotext {
+    width: 100%; height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .visionbox {
+    width: 100%; 
+    border-top:1px solid #d7d7d7;
+    border-bottom:1px solid #d7d7d7;
+  }
+  .visionbox ul {
+    width: 1500px; height: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  .vision > li {
+    width: 500px; height: 60px;
+    line-height: 45px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+  }
+  .vision > li > a {
+    width: 100%; height: 100%;
+    color: #333;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+  }
+  .vision > li:hover {background-color:#d4d0ca;}
+  .on {background-color:#d4d0ca;}
+  .infoboxbg {
+    width: 100%;
+  }
+  .text01 {
+    margin: 0 auto;
+    padding: 50px;
+    width: 100%; height: 320px;
+    background-color: #f4f0ea;
+    border-bottom:1px solid #d7d7d7;
+  }
+  .textimg1 { 
+    width: 144px; height: 30px;
+    display: block;
+    margin: auto;
+  }
+  .textimg2 { 
+    width: 836px; height: 60px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .text02 { 
+    background: url('../img/vision_bg.png');
+    width: 100%; height: 560px;
+    border-bottom:1px solid #d7d7d7;
+    color: #fff;
+    padding-top: 30px;
+  }
+  .text02 span { font-size: 18px; }
+  .text03 { 
+    margin: 0 auto;
+    width: 100%; height: 500px;
+  }
+  .textimg3 {
+    width: 140px; height: 50px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .text01 span,
+  .text03 span {
+    font-size: 18px;
+    color: #343434;
+    font-weight: bold;
+  }
+  .text01 > p,
+  .text02 > p,
+  .text03 > p{
+    width: 100%; 
+    padding: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+  }

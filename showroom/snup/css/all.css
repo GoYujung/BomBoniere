@@ -1,0 +1,47 @@
+.infoimg { 
+  background: url('../../img/vision_bg.jpg') ;
+  width: 100%; height: 100%;
+  }
+  .infotext {
+    width: 100%; height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titlewrap {
+    margin: 30px 100px;
+    padding: 13px;
+    background-color: #f6f6f6;
+    border-top: 2px solid #d5d5d5;
+    border-bottom-color: #e6e6e6;
+    font-weight: 700;
+  }
+
+  .pen {
+    margin: 30px 100px;
+    padding: 8px;
+    border-top: 2px solid #d5d5d5;
+  }
+  .pen img { float: left;}
+  .pen span { 
+    display: block;
+    font-size: 12px;
+  }
+  .pen b { font-size: 12px; }
+  .list {
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .list p {
+    width: 120px; height: 30px;
+    background-color: #e6e6e6;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    color: #333;
+    border-radius: 3px;
+  }
